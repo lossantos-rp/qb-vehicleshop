@@ -236,4 +236,51 @@ Config.Shops = {
             },
         },
     },
+    ['tuner'] = {
+        ['Type'] = 'managed',  -- meaning a real player has to sell the car
+        ['Zone'] = {
+            ['Shape'] = {
+                vector2(120.79251861572, -3050.908203125),
+                vector2(122.50583648682, -3050.1271972656),
+                vector2(153.15791320801, -3050.1843261719),
+                vector2(153.96586608887, -3019.7687988281),
+                vector2(121.33261871338, -3019.9128417969)
+            },
+            ['minZ'] = 7.0408883094788,
+            ['maxZ'] = 7.0411071777344
+        },
+        ['Job'] = 'mechanic', -- Name of job or none
+        ['ShopLabel'] = 'Tuner Vehicle Shop',
+        ['showBlip'] = true,  --- true or false
+        ['Categories'] = {
+            ['super'] = 'Super',
+            ['sports'] = 'Sports'
+        },
+        ['TestDriveTimeLimit'] = 1.0,
+        ['Location'] =vector3(140.61065, -3035.94, 6.4677233),
+        ['ReturnLocation'] = vector4(162.57214, -3044.205, 5.3714504, 271.17129),
+        ['VehicleSpawn'] = vector4(162.57214, -3044.205, 5.3714504, 271.17129),
+        ['ShowroomVehicles'] = {
+            [1] = {
+                coords = vector4(124.07608, -3046.897, 5.4635291, 271.58871),
+                defaultVehicle = 'comet6',
+                chosenVehicle = 'comet6',
+            },
+            [2] = {
+                coords = vector4(125.34796, -3023.065, 5.4634747, 269.41741),
+                defaultVehicle = 'jester4',
+                chosenVehicle = 'jester4',
+            },
+            [3] = {
+                coords = vector4(132.79373, -3047.299, 5.3746151, 319.55462),
+                defaultVehicle = 'vectre',
+                chosenVehicle = 'vectre',
+            },
+            [4] = {
+                coords = vector4(139.40805, -3047.788, 5.3843741, 320.88134),
+                defaultVehicle = 'euros',
+                chosenVehicle = 'euros',
+            },
+        }
+    }, -- Add your next table under this comma
 }
